@@ -1,1 +1,1 @@
-lst.remove(61)
+s1.clear()

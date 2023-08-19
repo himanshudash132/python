@@ -114,15 +114,80 @@ python Collections:
 4.Dictionary
 
 '''
-lst = [61, 2, 3, 4, 6, 41]
-var = type(lst)
-lst[2] = 45
-var = lst[2]
-# lst.append(100)
-# lst.insert(0, 100)
-# lst.remove(61)
-lst.pop()
-var = lst
-# var = len(lst)
-# var = lst[1:4]
-print(var)
+
+# [List] ---->is mutable
+
+
+# lst = [61, 2, 3, 4, 6, 41]
+# # var = type(lst)
+# # lst[2] = 45
+# # var = lst[2]
+# # lst.append(100)
+# # lst.insert(0, 100)
+# # lst.remove(61)
+# # lst.pop()
+# # del lst[3]
+# # del lst
+# lst.clear()
+# var = lst
+# # var = len(lst)
+# # var = lst[1:4]
+# print(var)
+
+# (Tuple) ---->not mutable
+
+# a = ("Harry","Shubh","Rohan")
+# # var = a
+# a = list(a)
+# var = type(a)
+# cannot do this
+# a[0] = "vikrant" 
+# print(var)
+
+# H.w 😊
+
+
+# tup = (22, 45, 23, 78, 6.89)
+# print(len(tup))
+# print(tup.count(23))
+# print(tup.index(23))
+# print(sum(tup))
+# print(min(tup))
+# print(max(tup))
+
+
+# Set removes repeated elements 
+# s1 = {23,2,2,2,2,2,7,12,5,2,272,2,2,2}
+# # s1.add(444444)
+# # s1.update([12,12,423,3423,632,123,432,23])
+# # print(len(s1))
+# # s1.remove(23) # remove 23 if present or if not present  return an error
+# # s1.discard(1) # remove 23 if present or if not present does not return an error
+# # s1.pop()  # remove  the last element from the set
+# # s1.clear()
+
+
+# print(s1)
+
+
+# A = { 1,2,3,4,5}
+# B = { 2,4,6,8}
+
+# print("union", A|B)
+
+# print("intersection", A&B)
+
+# print("difference", A-B)
+
+
+
+
+
+
+
+
+
+
+
+
+
