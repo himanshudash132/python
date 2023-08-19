@@ -1,2 +1,1 @@
-print(type(e))
-# print(e+2)
+lst.remove(61)
