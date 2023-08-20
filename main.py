@@ -179,6 +179,10 @@ python Collections:
 
 # print("difference", A-B)
 
+# print("Symmetric difference :", A ^ B)
+
+
+
 
 
 
