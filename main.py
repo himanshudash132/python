@@ -18,10 +18,10 @@
 # #     prfnt("hello")
 
 
-a = 34
-b = "Harry"
-c = 45.32
-d = 3
+# a = 34
+# b = "Harry"
+# c = 45.32
+# d = 3
 # prfnt(a+d)
 # prfnt(a-d)
 # prfnt(a*d)
@@ -183,15 +183,86 @@ python Collections:
 
 
 
+# Dictionary
 
+harrydict = {
+    "Name": "Harry ",
+    "Class":"4th",
+    "Marks":34.34,
+    "Hours In School": 6
+}
 
+# harrydict["Marks"] =39 # add an item with "39" as key and "34.34" as its value
+# print(harrydict["Marks"])
 
+# print(harrydict)
+# print(len(harrydict))
 
+# del harrydict["Marks"] # delete item having "Marks" key
+# print(harrydict)
 
+# harrydict.clear()#If we need to remove all items from the dictionary at once, we can use the clear() method.
+# print(harrydict)
 
+# harrydict.pop("Marks")
+# print(harrydict)
+# harrydict2 = {
+#     "Name": "Harry2 ",
+#     "Class":"5th",
+#     "Marks":99.34,
+#     "Hours In School": 7
+# }
+# harrydict.update(harrydict2)
 
+# print(harrydict)
 
+# age = int(input("Enter Your age"))
+# age = int(age)
+# print(type(age))
 
+# conditions  statement
 
+# age = int(input("Enter Your age ="))
+# # print(type(age))
 
+# if(age>18):
+#     print("You can drive a car\n")
+
+# elif(age==18):
+#     print("You can drive a car\n")
+# else:
+#     print("You cannot drive\n")   
+
+# loops
+ 
+# for i in range(0,1000):
+#     print("i") 
+   
+# li = [1 , 432, "this"]
+# for item in li:
+#     print(item)
+
+# s1 = {23,2,2,2,2,2,7,12,5,2,272,2,2,2}
+# for i in s1:
+#     print(i)
+
+# harrydict2 = {
+#     "Name": "Harry2 ",
+#     "Class":"5th",
+#     "Marks":99.34,
+#     "Hours In School": 7
+# }
+# for i in harrydict2:
+#     print(i)        
+    
+# tup = (22, 45, 23, 78, 6.89)
+# for item in tup:
+#     print(item)
+
+# i = 0 # break
+# while(i<100):
+#     i+=1
+#     if i == 78:
+#         continue
+#     print(i+1)
 
