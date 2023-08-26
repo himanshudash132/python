@@ -134,7 +134,7 @@ python Collections:
 # # var = lst[1:4]
 # print(var)
 
-# (Tuple) ---->not mutable
+# (Tuple) ----> immutable
 
 # a = ("Harry","Shubh","Rohan")
 # # var = a
@@ -185,12 +185,12 @@ python Collections:
 
 # Dictionary
 
-harrydict = {
-    "Name": "Harry ",
-    "Class":"4th",
-    "Marks":34.34,
-    "Hours In School": 6
-}
+# harrydict = {
+#     "Name": "Harry ",
+#     "Class":"4th",
+#     "Marks":34.34,
+#     "Hours In School": 6
+# }
 
 # harrydict["Marks"] =39 # add an item with "39" as key and "34.34" as its value
 # print(harrydict["Marks"])
@@ -265,4 +265,3 @@ harrydict = {
 #     if i == 78:
 #         continue
 #     print(i+1)
-
