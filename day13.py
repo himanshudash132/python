@@ -48,5 +48,10 @@ print(str2.istitle())
 str2 = "fly Mocking bird"
 print(str2.startswith("Python"))
 
+str1 = "Python is an Interpreted language"
+print(str1.swapcase())
+
+str1 = "Python is an Interpreted language"
+print(str1.title())
 
 
