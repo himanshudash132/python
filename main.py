@@ -279,8 +279,8 @@ python Collections:
 #     print(st)   
 
 
-def average(a,b):
-    return (a+b)/2    
+# def average(a,b):
+#     return (a+b)/2    
 
 # print("Executing Function...")
 # greetHello("Harry", "Thank You")
@@ -289,3 +289,77 @@ def average(a,b):
 # letterGenerator("Rahul", "27th Oct")
 # print(average(34,54))
 # print("done")    
+
+
+
+
+
+
+
+
+# try:
+#     a = int(input("Enter your number"))
+
+#     print(a+3)
+# except Exception as e:
+#     print("some error occured:", e)    
+
+
+
+# s = "Harry is a good boy"
+
+#  Writing to a file
+
+
+# with open("text.txt", "w") as f:
+#     f.write(s)
+
+# fp = open("text.txt", "w")
+# fp.write(s)
+# fp.close()
+
+# Reading a file
+
+
+# with open("text.txt", "r") as f:
+#     f.read()
+#     print(s)
+
+
+# fp = open("text.txt", "r")
+# fp.read()
+# print(s)
+# fp.close()
+
+
+# Appending to a file
+
+
+# with open("text.txt", "a") as f:
+#     f.write("\nhimanshu is a good boy\n")
+
+# fp = open("text.txt", "w")
+# fp.write(s)
+# fp.close()
+
+
+class Employee:
+    # salary = 89
+    # name = "Rahul"
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def getSalary(self):
+        print( self.salary)
+
+rahul = Employee("Rahul", "300000")
+# print(rahul.salary)    
+# print(rahul.name)
+rahul.getSalary()   
+
+himanshu = Employee("Himanshu", "3000000000000000000000000000")
+# print(himanshu.salary)    
+# print(himanshu.name)
+himanshu.getSalary()    
