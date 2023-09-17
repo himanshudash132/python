@@ -274,6 +274,18 @@ python Collections:
 #     print("hello")
 #     print(ending)
 
+# def letterGenerator(name, date):
+#     st = f"Hi mam,\nThis is {name} and i will not come to school on {date}" 
+#     print(st)   
+
+
+def average(a,b):
+    return (a+b)/2    
+
 # print("Executing Function...")
 # greetHello("Harry", "Thank You")
+# greetHello("Rahul", "Thanks")
+# letterGenerator("Harry", "26th Oct")
+# letterGenerator("Rahul", "27th Oct")
+# print(average(34,54))
 # print("done")    
