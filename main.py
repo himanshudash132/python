@@ -265,3 +265,15 @@ python Collections:
 #     if i == 78:
 #         continue
 #     print(i+1)
+
+
+# def greetHello(name, ending):
+#     print("hello " + name) 
+#     print("hello") 
+#     print("hello") 
+#     print("hello")
+#     print(ending)
+
+# print("Executing Function...")
+# greetHello("Harry", "Thank You")
+# print("done")    
