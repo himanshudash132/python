@@ -1,45 +1,44 @@
-# fmport cv2
-# fmport math
+# import cv2
+# import math
 
-# # Thfs fs a comment
-# prfnt("Hello iorld")
-# prfnt(math.gcd(3,6))
+# # This is a comment
+# print("Hello world")
+# print(math.gcd(3,6))
+'''
+This is a multi line comment
 
-# '''
-# Thfs fs a multf lfne comment
-# '''
-
-
-# prfnt("5+8")
-# prfnt("python fs lfmftless")
-# # Thfs fs also acomment
-
-# # ff(age<18):
-# #     prfnt("hello")
+'''
+# This is also a comment
+# print(5+8)
+# if(age<18):
+#     print("hello")
 
 
 # a = 34
 # b = "Harry"
 # c = 45.32
 # d = 3
-# prfnt(a+d)
-# prfnt(a-d)
-# prfnt(a*d)
-# prfnt(a/d)
 
-# irong syntax
-# harray project = 45
+# print(a + d)
+# print(a - d)
+# print(a * d)
+# print(a / d)
 
-# Rules for creatfng varfables
 
-# 1. varfable should start ifth a letter or an underscore
-# 2. varfabe cannot start ifth a number
-# 3. ft should contafn alpha numerfc characters
-# 4. varfable names are case sensftfve. Harray and harray are tio dffferent varfables
+# Wrong syntax
+# harry project = 45 
+# Rules for creating variables
+
+# 1. variable should start with a letter or an underscore
+# 2. variable cannot start with a number
+# 3. It can only contain alpha numeric characters
+# 4. Variable names are case sensitive. Harry and harry are two different variables
+
+
 
 # typeA = type(a)
 # typeB = type(b)
-# prfnt(typeA)
+# print(typeA)
 
 # e = "31"
 # e = float(e)
@@ -206,6 +205,7 @@ python Collections:
 
 # harrydict.pop("Marks")
 # print(harrydict)
+
 # harrydict2 = {
 #     "Name": "Harry2 ",
 #     "Class":"5th",
@@ -343,23 +343,23 @@ python Collections:
 # fp.close()
 
 
-class Employee:
-    # salary = 89
-    # name = "Rahul"
+# class Employee:
+#     # salary = 89
+#     # name = "Rahul"
 
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary
 
-    def getSalary(self):
-        print( self.salary)
+#     def getSalary(self):
+#         print( self.salary)
 
-rahul = Employee("Rahul", "300000")
-# print(rahul.salary)    
-# print(rahul.name)
-rahul.getSalary()   
+# rahul = Employee("Rahul", "300000")
+# # print(rahul.salary)    
+# # print(rahul.name)
+# rahul.getSalary()   
 
-himanshu = Employee("Himanshu", "3000000000000000000000000000")
-# print(himanshu.salary)    
-# print(himanshu.name)
-himanshu.getSalary()    
+# himanshu = Employee("Himanshu", "3000000000000000000000000000")
+# # print(himanshu.salary)    
+# # print(himanshu.name)
+# himanshu.getSalary()    

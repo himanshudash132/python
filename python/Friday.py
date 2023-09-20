@@ -75,11 +75,11 @@ if __name__ == '__main__':
                webbrowser.open("stackoverflow.com")       
            
 
-          elif 'play music' in query:
-               music_dic = "C:\Users\KIIT\Videos\Captures"
-               songs = os.listdir(music_dir)
-               print(songs)
-               os.startfile(os.path.join(music_dir , songs[0]))
+        #   elif 'play music' in query:
+        #        music_dic = "C:\Users\KIIT\Videos\Captures"
+        #        songs = os.listdir(music_dir)
+        #        print(songs)
+        #        os.startfile(os.path.join(music_dir , songs[0]))
 
 
                
