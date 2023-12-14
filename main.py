@@ -155,8 +155,9 @@ python Collections:
 # print(max(tup))
 
 
-# Set removes repeated elements 
-# s1 = {23,2,2,2,2,2,7,12,5,2,272,2,2,2}
+# Set removes repeated elements ,  it is unorderded and  no indexing  
+# # s1 = {23,2,2,2,2,2,7,12,5,2,272,2,2,2}
+# # print(23 in s1)
 # # s1.add(444444)
 # # s1.update([12,12,423,3423,632,123,432,23])
 # # print(len(s1))
@@ -307,8 +308,15 @@ python Collections:
 
 
 # s = "Harry is a good boy"
+# # x is used to create a file which does not exist 
+# with open("text.txt", "x") as f:
+#     f.write(s)
 
-#  Writing to a file
+# fp = open("text.txt", "x")
+# fp.write(s)
+# fp.close()
+
+# #  Writing to a file
 
 
 # with open("text.txt", "w") as f:
@@ -318,7 +326,7 @@ python Collections:
 # fp.write(s)
 # fp.close()
 
-# Reading a file
+# # Reading a file
 
 
 # with open("text.txt", "r") as f:
@@ -332,7 +340,7 @@ python Collections:
 # fp.close()
 
 
-# Appending to a file
+# # Appending to a file
 
 
 # with open("text.txt", "a") as f:
@@ -342,6 +350,8 @@ python Collections:
 # fp.write(s)
 # fp.close()
 
+
+#  CLASS 
 
 # class Employee:
 #     # salary = 89
@@ -354,12 +364,25 @@ python Collections:
 #     def getSalary(self):
 #         print( self.salary)
 
+#     def getname(self):
+#         print( self.name)
+
 # rahul = Employee("Rahul", "300000")
 # # print(rahul.salary)    
 # # print(rahul.name)
-# rahul.getSalary()   
+# rahul.getSalary()  
+# rahul.getname()  
 
 # himanshu = Employee("Himanshu", "3000000000000000000000000000")
 # # print(himanshu.salary)    
 # # print(himanshu.name)
 # himanshu.getSalary()    
+# himanshu.getname() 
+
+# class Employee:
+#     salary = 89
+#     name = "Rahul"
+
+# rahul = Employee()
+# print(rahul.salary)    
+# print(rahul.name)    
