@@ -118,12 +118,16 @@ python Collections:
 
 
 # lst = [61, 2, 3, 4, 6, 41]
-# # var = type(lst)
+# var = type(lst)
 # # lst[2] = 45
 # # var = lst[2]
 # # lst.append(100)
 # # lst.insert(0, 100)
+# lst.extend(0,78,True,'hhhh')
+# lst.reverse()
 # # lst.remove(61)
+# lst.sort()
+# va = lst.copy()
 # # lst.pop()
 # # del lst[3]
 # # del lst
@@ -131,7 +135,32 @@ python Collections:
 # var = lst
 # # var = len(lst)
 # # var = lst[1:4]
-# print(var)
+# print(var) 
+# print(lst)
+# l=[1, 1.0,True, 'have', 'a', 'geeky', 'day']
+# print(l)
+# l[-1]
+# l[1]
+# for i in l:
+#     print(i)
+# fruits = ['mango', 'apple','cherry','coconut','guava']
+# fruits.append('grapes')
+# fruits.insert(1,'grapes')
+# fruits
+
+# lst = [61, 2, 3, 4, 6, 41]
+# lst2 = []
+# for i in lst:
+#     lst2.append(i**2)
+# lst2  
+# for i in range(1,9):
+#     print(i)
+# for i in range(1,90,2):
+#     print(i)
+
+
+
+
 
 # (Tuple) ----> immutable
 
