@@ -157,8 +157,11 @@ python Collections:
 #     print(i)
 # for i in range(1,90,2):
 #     print(i)
+[i**2 for i in range(9)]
 
-
+cube = []
+[cube.append(i**3) for i in range(1,6)]  
+cube
 
 
 
