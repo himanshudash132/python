@@ -187,9 +187,9 @@ cube
 # print(max(tup))
 
 
-# Set removes repeated elements ,  it is unorderded and  no indexing  
-# # s1 = {23,2,2,2,2,2,7,12,5,2,272,2,2,2}
-# # print(23 in s1)
+# Set removes repeated elements ,  it is unorderded and  no indexing  , immutable
+s1 = {23,2,2,2,2,2,7,12,5,2,272,2,2,2}
+# print(23 in s1)
 # # s1.add(444444)
 # # s1.update([12,12,423,3423,632,123,432,23])
 # # print(len(s1))
@@ -226,7 +226,8 @@ cube
 
 # harrydict["Marks"] =39 # add an item with "39" as key and "34.34" as its value
 # print(harrydict["Marks"])
-
+# harrydict.keys()
+# harrydict.values()
 # print(harrydict)
 # print(len(harrydict))
 
@@ -324,6 +325,22 @@ cube
 # print("done")    
 
 
+
+# def details(name,roll,age,subject):
+#     print("name",name)
+#     print("roll",roll)
+#     print("age",age)
+#     print("subject")
+#     for i in subject:
+#         print(i,end=" ")
+#     # [print(i,end=" ")for i in subject]
+
+
+# name = input("Enter your name ")
+# roll = int(input("Enter your roll "))
+# age = int(input("Enter your age "))
+# subject = ['maths','science','maths','science','maths','science']
+# details(name,roll,age,subject)  
 
 
 
